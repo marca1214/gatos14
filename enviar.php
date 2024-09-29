@@ -17,7 +17,7 @@ $message .= "Teléfono de contacto: " . $phone . " \r\n";
 $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'https://formsubmit.co/81784a7f3324e5b838c27a2d11401088';
+$para = 'andressantacruz1214@gmail.com';
 $asunto = 'Asunto 1234';
 
 mail($para, $asunto, utf8_decode($message), $header);
